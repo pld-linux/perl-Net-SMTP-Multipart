@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Net::SMTP::Multipart
 Summary(zh_CN):	Net::SMTP::Multipart Perl дё©И
 Name:		perl-Net-SMTP-Multipart
 Version:	1.4
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -59,6 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %{perl_sitelib}/Net/SMTP
 %{perl_sitelib}/Net/SMTP/Multipart.pm
 %{_mandir}/man3/*
