@@ -25,7 +25,8 @@ Summary(zh_CN):	Net::SMTP::Multipart Perl Ä£¿é
 Name:		perl-Net-SMTP-Multipart
 Version:	1.5
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1ba9a4a9c2d96a0fff6de587b6d72bce
@@ -59,7 +60,8 @@ swoich wewnêtrznych metod: Header, Text, FileAttach i End.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
