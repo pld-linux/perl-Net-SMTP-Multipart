@@ -19,8 +19,8 @@ Summary(sv):	Net::SMTP::Multipart Perlmodul
 Summary(uk):	Модуль для Perl Net::SMTP::Multipart
 Summary(zh_CN):	Net::SMTP::Multipart Perl дё©И
 Name:		perl-Net-SMTP-Multipart
-Version:	1.4
-Release:	3
+Version:	1.5
+Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
