@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Net
-%define		pnam	SMTP-Multipart
+%define	pdir	Net
+%define	pnam	SMTP-Multipart
 Summary:	Net::SMTP::Multpiart perl module
 Summary(cs):	Modul Net::SMTP::Multipart pro Perl
 Summary(da):	Perlmodul Net::SMTP::Multipart
