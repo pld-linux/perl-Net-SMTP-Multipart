@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	SMTP-Multipart
+%define		pdir	Net
+%define		pnam	SMTP-Multipart
 Summary:	Net::SMTP::Multpiart perl module
 Summary(cs):	Modul Net::SMTP::Multipart pro Perl
 Summary(da):	Perlmodul Net::SMTP::Multipart
@@ -18,9 +18,9 @@ Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Net::SMTP::Multipart
 Summary(sv):	Net::SMTP::Multipart Perlmodul
 Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Net::SMTP::Multipart
 Summary(zh_CN):	Net::SMTP::Multipart Perl Ä£¿é
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Net-SMTP-Multipart
 Version:	1.4
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -30,16 +30,16 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module uses the Net::SMTP and Mime::Base64 modules to compose
-and send multipart mail messages.  It uses the Net::SMTP methods, but
+This module uses the Net::SMTP and Mime::Base64 modules to compose and
+send multipart mail messages. It uses the Net::SMTP methods, but
 simplifies formatting of multipart messages using its internal methods
 Header, Text, FileAttach and End.
 
 %description -l pl
 Ten modu³ u¿ywa Net::SMTP i Mime::Base64 do komponowania i wysy³ania
-wieloczê¶ciowych wiadomo¶ci e-mail.  U¿ywa metod Net::SMTP, ale upraszcza
-komponowanie wieloczê¶ciowych wiadomo¶ci przez udostêpnianie swoich
-wewnêtrznych metod: Header, Text, FileAttach i End.
+wieloczê¶ciowych wiadomo¶ci e-mail. U¿ywa metod Net::SMTP, ale
+upraszcza komponowanie wieloczê¶ciowych wiadomo¶ci przez udostêpnianie
+swoich wewnêtrznych metod: Header, Text, FileAttach i End.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -59,5 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_sitelib}/%{pdir}/SMTP/Multipart.pm
+%dir %{perl_sitelib}/Net/SMTP
+%{perl_sitelib}/Net/SMTP/Multipart.pm
 %{_mandir}/man3/*
