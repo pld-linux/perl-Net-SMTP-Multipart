@@ -47,7 +47,7 @@ swoich wewnêtrznych metod: Header, Text, FileAttach i End.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 #%%{__make} test
 
