@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Net::SMTP::Multipart
 Summary(it):	Modulo di Perl Net::SMTP::Multipart
 Summary(ja):	Net::SMTP::Multipart Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Net::SMTP::Multipart ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Net::SMTP::Multipart
+Summary(nb):	Perlmodul Net::SMTP::Multipart
 Summary(pl):	Modu³ perla Net::SMTP::Multipart
 Summary(pt_BR):	Módulo Perl Net::SMTP::Multipart
 Summary(pt):	Módulo de Perl Net::SMTP::Multipart
