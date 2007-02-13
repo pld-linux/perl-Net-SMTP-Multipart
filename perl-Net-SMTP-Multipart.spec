@@ -6,22 +6,22 @@
 %define		pdir	Net
 %define		pnam	SMTP-Multipart
 Summary:	Net::SMTP::Multpiart perl module
-Summary(cs.UTF-8):   Modul Net::SMTP::Multipart pro Perl
-Summary(da.UTF-8):   Perlmodul Net::SMTP::Multipart
-Summary(de.UTF-8):   Net::SMTP::Multipart Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Net::SMTP::Multipart
-Summary(fr.UTF-8):   Module Perl Net::SMTP::Multipart
-Summary(it.UTF-8):   Modulo di Perl Net::SMTP::Multipart
-Summary(ja.UTF-8):   Net::SMTP::Multipart Perl モジュール
-Summary(ko.UTF-8):   Net::SMTP::Multipart 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Net::SMTP::Multipart
-Summary(pl.UTF-8):   Moduł perla Net::SMTP::Multipart
-Summary(pt_BR.UTF-8):   Módulo Perl Net::SMTP::Multipart
-Summary(pt.UTF-8):   Módulo de Perl Net::SMTP::Multipart
-Summary(ru.UTF-8):   Модуль для Perl Net::SMTP::Multipart
-Summary(sv.UTF-8):   Net::SMTP::Multipart Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Net::SMTP::Multipart
-Summary(zh_CN.UTF-8):   Net::SMTP::Multipart Perl 模块
+Summary(cs.UTF-8):	Modul Net::SMTP::Multipart pro Perl
+Summary(da.UTF-8):	Perlmodul Net::SMTP::Multipart
+Summary(de.UTF-8):	Net::SMTP::Multipart Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Net::SMTP::Multipart
+Summary(fr.UTF-8):	Module Perl Net::SMTP::Multipart
+Summary(it.UTF-8):	Modulo di Perl Net::SMTP::Multipart
+Summary(ja.UTF-8):	Net::SMTP::Multipart Perl モジュール
+Summary(ko.UTF-8):	Net::SMTP::Multipart 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Net::SMTP::Multipart
+Summary(pl.UTF-8):	Moduł perla Net::SMTP::Multipart
+Summary(pt_BR.UTF-8):	Módulo Perl Net::SMTP::Multipart
+Summary(pt.UTF-8):	Módulo de Perl Net::SMTP::Multipart
+Summary(ru.UTF-8):	Модуль для Perl Net::SMTP::Multipart
+Summary(sv.UTF-8):	Net::SMTP::Multipart Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Net::SMTP::Multipart
+Summary(zh_CN.UTF-8):	Net::SMTP::Multipart Perl 模块
 Name:		perl-Net-SMTP-Multipart
 Version:	1.5
 Release:	2
