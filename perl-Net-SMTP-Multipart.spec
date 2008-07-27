@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl Net::SMTP::Multipart
 Summary(zh_CN.UTF-8):	Net::SMTP::Multipart Perl 模块
 Name:		perl-Net-SMTP-Multipart
 Version:	1.5
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
