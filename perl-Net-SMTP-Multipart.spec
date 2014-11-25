@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Net
 %define		pnam	SMTP-Multipart
+%include	/usr/lib/rpm/macros.perl
 Summary:	Net::SMTP::Multpiart perl module
 Summary(cs.UTF-8):	Modul Net::SMTP::Multipart pro Perl
 Summary(da.UTF-8):	Perlmodul Net::SMTP::Multipart
@@ -30,8 +30,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1ba9a4a9c2d96a0fff6de587b6d72bce
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Net-SMTP-Multipart/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
