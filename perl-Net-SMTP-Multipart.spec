@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	SMTP-Multipart
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::SMTP::Multpiart perl module
 Summary(cs.UTF-8):	Modul Net::SMTP::Multipart pro Perl
 Summary(da.UTF-8):	Perlmodul Net::SMTP::Multipart
